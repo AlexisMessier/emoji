@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 
-
 const styleComponentTitle1 = {
   fontWeight: "bold",
   fontFamily: "Open Sans",
