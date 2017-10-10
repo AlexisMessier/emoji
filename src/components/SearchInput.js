@@ -18,17 +18,13 @@ const styleComponentInput = {
 }
 
 class SearchInput extends React.Component {
-  handleChange = (event) => {
-    this.props.textChange(event);
-  }
-
   render() {
     return (
       <div style={styleComponentSearch}>
         <div>
           <input
             style={styleComponentInput}
-            onChange={this.handleChange}
+            onChange={this.props.textChange}
           />
         </div>
       </div>
