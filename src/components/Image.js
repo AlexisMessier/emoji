@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 
 const styleComponentImage = {
-  position: "relative",
   top: "6px",
   padding: "0 14px",
   width: "32px",
