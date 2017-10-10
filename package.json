@@ -7,11 +7,16 @@
     "react-dom": "^16.0.0",
     "react-scripts": "1.0.14"
   },
+  "homepage": "http://AlexisMessier.github.io/emoji",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "deploy" : "npm run build&&gh-pages -d build"
+  },
+  "devDependencies": {
+    "gh-pages": "^1.0.0"
   }
 }
