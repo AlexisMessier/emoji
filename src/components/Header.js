@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Image from './Image';
 import Title1 from './Title1';
 
@@ -7,7 +7,7 @@ const componentHeader = {
   textAlign: "center",
 }
 
-class Header extends Component {
+class Header extends React.Component {
   render() {
     return (
       <div>

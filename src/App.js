@@ -1,13 +1,20 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Header from './components/Header';
 import SearchInput from './components/SearchInput';
+import EmojiResult from './components/EmojiResult';
 
-class App extends Component {
+
+class App extends React.Component {
   render() {
     return (
       <div>
         <Header/>
-        <SearchInput />
+        <SearchInput
+          textChange={this.handleChange}
+        />
+        <EmojiResult
+          emojiData={this.state.filteredEmoji}
+        />
       </div>
     );
   }

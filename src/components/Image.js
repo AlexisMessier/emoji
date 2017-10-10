@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 const styleComponentImage = {
   top: "6px",
@@ -7,7 +7,7 @@ const styleComponentImage = {
   height: "32px",
 }
 
-class Image extends Component {
+class Image extends React.Component {
   render() {
     return (
       <img

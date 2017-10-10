@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 const styleComponentTitle1 = {
   fontWeight: "bold",
@@ -8,12 +8,12 @@ const styleComponentTitle1 = {
   color: "blue"
 }
 
-class Header extends Component {
+class Header extends  React.Component {
   render() {
     return (
-      <h1 style={styleComponentTitle1}>
+      <span style={styleComponentTitle1}>
         {this.props.textComponentTitle1}
-      </h1>
+      </span>
     );
   }
 }
